@@ -1,27 +1,31 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  8 17:28:28 2020
+Updated on Sat Sept 18 2021 15:29:03
 
 @author: rtgun
+@contributors: tw1574
+
+To Do:
+- Is this script still necessary?
 """
 
 import json
-import numpy as np
-import pandas as pd
-from glob import glob
+import argparse as ag
 import os
+from config import DefaultConfigs
 
 def get_node_sidewalk_set(elems):
   '''
   elems : elements dictionary from df
   node_id_set : set of node ids
   sidewalk_elements : list of sidewalk elements
-  
+
   Saves id of every node element to a list
   Saves every sidewalk element to a list
   We save the entire sidewalk element instead of just nodes.
   This is to understand at which element exactly is the validation failing
-  
+
   '''
   node_id_set = set()
   sidewalk_elements = []
@@ -37,21 +41,33 @@ def get_node_sidewalk_set(elems):
   return node_id_set, sidewalk_elements
 
 if __name__ == '__main__':
-    
-    path = "E:\oswvalidators\OSW\TestData"
-    os.chdir(path)
-    json_files = glob("*.json")
-    print("Number of json files :", len(json_files))
-    print(json_files)
-    
+
+#    path = "E:\oswvalidators\OSW\TestData"
+#    os.chdir(path)
+#    json_files = glob("*.json")
+#    print("Number of json files :", len(json_files))
+#    print(json_files)
+
     # json_files = [i for i in json_files if 'broken' not in i]
-    
+
+    parser = ag.ArgumentParser()
+    parser.add_argument("--inputSchema", help="Relative input path to JSON schema files. Default: TestData\input",
+                        default=os.path.join(os.getcwd(), "TestData\input"))
+    args = parser.parse_args()
+    cf = DefaultConfigs(args)
+
+    json_files = glob(os.path.join(cf.inputSchema, "*.json"))
+    print("Reading files from :", cf.inputSchema)
+    print("Number of json files :", len(json_files))
+    nodes_schema_file = sorted([x for x in json_files if 'node' in x.lower()])
+    ways_schema_file = sorted([x for x in json_files if 'node' not in x.lower()])
+
     for ind, file in enumerate(json_files):
         print('-'*10)
         print('File Name : {}'.format(file))
         with open(file) as data_json:
             data_dict = json.load(data_json)
-    
+
         node_set, sidewalk_elements = get_node_sidewalk_set(data_dict['elements'])
         print('Number of nodes : {}'.format(len(node_set)))
         print('Number of Sidewalk elements : {}'.format(len(sidewalk_elements)))
