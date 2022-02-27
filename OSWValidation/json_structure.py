@@ -45,19 +45,14 @@ def error_capture(key,errors,index):
     #return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
 
 
-def validate_json_schema(geojson_path=None, schema_path=None, writePath=None):
-    # Read schema and json files
-
-    with open(geojson_path) as fp:
-        geojson = json.load(fp)
-    with open(schema_path) as fp:
-        schema = json.load(fp)
-
+def validate_json_structure(geojson=None, schema=None):
     validator = Draft7Validator(schema)
     errors = validator.iter_errors(geojson)
 
     invalid_ids = dict()  # A dictionary to hold IDs of invalid nodes and error messages
     for error in errors:
+        if not error.path:
+            continue
         if error.path[1] not in invalid_ids.keys():
             invalid_ids.update({error.path[1]: list()})
         index = len(error.schema_path) - 1
@@ -67,7 +62,3 @@ def validate_json_schema(geojson_path=None, schema_path=None, writePath=None):
             invalid_ids[error.path[1]].append(error_message)
 
     return invalid_ids
-
-
-if __name__ == '__main__':
-    cf = DefaultConfigs()
