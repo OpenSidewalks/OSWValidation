@@ -2,6 +2,7 @@ from jsonschema import Draft7Validator
 from config import DefaultConfigs
 import json
 import os
+import sys
 import ntpath
 
 def minItems_error(errors,index):
@@ -45,7 +46,7 @@ def error_capture(key,errors,index):
     #return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
 
 
-def validate_json_structure(geojson=None, schema=None):
+def validate_json_structure_with_schema(geojson, schema):
     validator = Draft7Validator(schema)
     errors = validator.iter_errors(geojson)
 
@@ -56,9 +57,17 @@ def validate_json_structure(geojson=None, schema=None):
         if error.path[1] not in invalid_ids.keys():
             invalid_ids.update({error.path[1]: list()})
         index = len(error.schema_path) - 1
+        print(error.message)
         error_message = error_capture(error.schema_path[index], error, index)
 		
         if error_message:
             invalid_ids[error.path[1]].append(error_message)
 
     return invalid_ids
+
+def validate_json_structure(geojson):
+    schema_filename = 'OSWValidation/Json Schema/Ways_schema.json'
+    with open(os.path.join(sys.path[0], schema_filename), 'r') as fp:
+        schema = json.load(fp)
+
+    return validate_json_structure_with_schema(geojson, schema)
