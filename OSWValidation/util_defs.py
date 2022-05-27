@@ -23,11 +23,11 @@ def merge_dicts(dict1, dict2):
 
 def write_outputs(utild, cf, ways_dict):
     
-    invalid_nodes_json = copy.deepcopy(utild.nodes_json)
-    invalid_nodes_json['features'] = []
+    # invalid_nodes_json = copy.deepcopy(utild.nodes_json)
+    # invalid_nodes_json['features'] = []
     invalid_ways_json = copy.deepcopy(utild.ways_json)
     invalid_ways_json['features'] = []
-    valid_nodes_json = copy.deepcopy(utild.nodes_json)
+    # valid_nodes_json = copy.deepcopy(utild.nodes_json)
     valid_ways_json = copy.deepcopy(utild.ways_json)
 
     for id, msg in sorted(ways_dict.items(), reverse=True):

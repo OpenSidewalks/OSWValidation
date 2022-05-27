@@ -10,27 +10,20 @@ This repository is created to perform validations on the geojson files provided 
 
  
 #### Using Pip
-1.  `virtualenv opensidewalk -p /usr/bin/python3.6`
-2.  `source opensidewalk/bin/activate`
-3.  `pip3 install -r pip_reqs.txt`
-  
-#### Using Conda Distribution
-1.  `conda create -n opensidewalk python=3.8`
-2.  `conda activate opensidewalk`
-3.  `conda install --file conda_reqs.txt`
-4. `pip install -r conda_pip_reqs.txt`
+1.  `python3 -m venv env`
+2.  `source env/bin/activate`
+3.  `pip install -r pip_reqs.txt`
 
-  
 ##### How to run the code:
 
-  `python main.py --inputPath <<input folder>> --writePath <<Output Directory to Write To>>`
+  `python main.py --inputPath <<input folder>> --writePath <<Output Directory to Write To>> --schemaPath <<Path of schema file to validate against>>`
 
 Example:
 
-`python main.py --inputPath TestData/input --writePath TestData/Output`
+`python main.py --inputPath TestData/input --writePath TestData/Output --schemaPath TestData/Ways_schema.json`
 
 #####  Expected Input:
-Input folder should contain nodes, and ways files belonging to a region with the same prefix.   For example:
+Input folder should contain nodes (optional), and ways files belonging to a region with the same prefix.   For example:
 |FileName  | Data it should contain |
 |--|--|
 |1. Redmond_nodes.geojson  | Contains all the points in that region |
@@ -56,6 +49,13 @@ For the *invalid* files, please look at the tag "fixme" in them to know what is 
 
 Load *Missing_Intersection* file in QGIS to see the ways that are potentially intersecting but don't have an intersecting node.  
 Load *Recommended_Intersection* file on top of *Missing_Intersection* files to see recommended intersection points.
+
+#### How to build into an executable:
+
+1. `pyinstaller OSWValidation.py -F`
+2. `pyinstaller OSWValidation.spec`
+The resulting executable can be found in the dist/ directory.
+
 
 #### How to file issues:
 

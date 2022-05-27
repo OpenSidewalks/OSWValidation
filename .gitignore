@@ -8,4 +8,6 @@ __pycache__/
 OSW/TestData/Generated/
 
 env/
+build/
+dist/
 OSWValidation.egg-info/

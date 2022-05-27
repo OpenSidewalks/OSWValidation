@@ -1,1700 +1,30 @@
 {
     "type": "FeatureCollection",
-    "name": "valparaiso",
-    "crs": {
-        "type": "name",
-        "properties": {
-            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-        }
-    },
     "features": [
         {
             "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5948413,
+                        -33.0487088
+                    ],
+                    [
+                        -71.594649,
+                        -33.0484375
+                    ]
+                ]
+            },
             "properties": {
                 "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "marked",
-                "length": 9.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6220815,
-                        -33.0429678
-                    ],
-                    [
-                        -71.6219959,
-                        -33.0430088
-                    ]
-                ]
+                "length": 35.0,
+                "_u_id": 5337709883,
+                "_v_id": 8977582528
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "marked",
-                "length": 9.5
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6219507,
-                        -33.0434902
-                    ],
-                    [
-                        -71.6218592,
-                        -33.0435273
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "marked",
-                "length": 8.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6216341,
-                        -33.0432018
-                    ],
-                    [
-                        -71.621683,
-                        -33.0432645
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 54.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5973925,
-                        -33.0363351
-                    ],
-                    [
-                        -71.5976065,
-                        -33.0358809
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 52.9
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5971346,
-                        -33.0362378
-                    ],
-                    [
-                        -71.5973268,
-                        -33.0358232
-                    ],
-                    [
-                        -71.5973481,
-                        -33.0357971
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 41.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6418565,
-                        -33.0205438
-                    ],
-                    [
-                        -71.6420376,
-                        -33.0205359
-                    ],
-                    [
-                        -71.6423011,
-                        -33.0205244
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 847.5
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6302988,
-                        -33.0868157
-                    ],
-                    [
-                        -71.6294324,
-                        -33.0864494
-                    ],
-                    [
-                        -71.6289711,
-                        -33.0862943
-                    ],
-                    [
-                        -71.6283086,
-                        -33.0861505
-                    ],
-                    [
-                        -71.627579,
-                        -33.0859527
-                    ],
-                    [
-                        -71.6270795,
-                        -33.0857746
-                    ],
-                    [
-                        -71.6269399,
-                        -33.0857198
-                    ],
-                    [
-                        -71.6268504,
-                        -33.0856324
-                    ],
-                    [
-                        -71.6266403,
-                        -33.0852313
-                    ],
-                    [
-                        -71.6265177,
-                        -33.0850194
-                    ],
-                    [
-                        -71.626021,
-                        -33.0844078
-                    ],
-                    [
-                        -71.6257311,
-                        -33.0839779
-                    ],
-                    [
-                        -71.6253123,
-                        -33.083357
-                    ],
-                    [
-                        -71.6246336,
-                        -33.0821967
-                    ],
-                    [
-                        -71.6243413,
-                        -33.0816852
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 1338.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.637176,
-                        -33.0855284
-                    ],
-                    [
-                        -71.6361353,
-                        -33.0843328
-                    ],
-                    [
-                        -71.6359798,
-                        -33.0842564
-                    ],
-                    [
-                        -71.6356096,
-                        -33.084207
-                    ],
-                    [
-                        -71.6352877,
-                        -33.084171
-                    ],
-                    [
-                        -71.6351215,
-                        -33.0838429
-                    ],
-                    [
-                        -71.6352395,
-                        -33.0831687
-                    ],
-                    [
-                        -71.6352073,
-                        -33.0829799
-                    ],
-                    [
-                        -71.6343382,
-                        -33.0822203
-                    ],
-                    [
-                        -71.6321925,
-                        -33.0817708
-                    ],
-                    [
-                        -71.6314576,
-                        -33.081573
-                    ],
-                    [
-                        -71.6313076,
-                        -33.0815201
-                    ],
-                    [
-                        -71.6291669,
-                        -33.079891
-                    ],
-                    [
-                        -71.6289282,
-                        -33.0798398
-                    ],
-                    [
-                        -71.6286385,
-                        -33.0798084
-                    ],
-                    [
-                        -71.6284025,
-                        -33.0797949
-                    ],
-                    [
-                        -71.6281611,
-                        -33.0797998
-                    ],
-                    [
-                        -71.6278955,
-                        -33.0798129
-                    ],
-                    [
-                        -71.6276059,
-                        -33.0798668
-                    ],
-                    [
-                        -71.6272384,
-                        -33.0799455
-                    ],
-                    [
-                        -71.6270211,
-                        -33.0800017
-                    ],
-                    [
-                        -71.6268092,
-                        -33.0800511
-                    ],
-                    [
-                        -71.626651,
-                        -33.0800668
-                    ],
-                    [
-                        -71.6265035,
-                        -33.0800623
-                    ],
-                    [
-                        -71.626274,
-                        -33.0800184
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 36.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6525743,
-                        -33.0439325
-                    ],
-                    [
-                        -71.6524728,
-                        -33.0438992
-                    ],
-                    [
-                        -71.6522135,
-                        -33.0438037
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 155.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.587759,
-                        -33.0527764
-                    ],
-                    [
-                        -71.5882391,
-                        -33.0528348
-                    ],
-                    [
-                        -71.5882632,
-                        -33.0527988
-                    ],
-                    [
-                        -71.5880165,
-                        -33.0522773
-                    ],
-                    [
-                        -71.5879581,
-                        -33.0518905
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 32.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5930056,
-                        -33.0591004
-                    ],
-                    [
-                        -71.5928657,
-                        -33.0593676
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 30.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5931873,
-                        -33.0591895
-                    ],
-                    [
-                        -71.5930423,
-                        -33.0594348
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 35.8
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5926048,
-                        -33.059913
-                    ],
-                    [
-                        -71.5924638,
-                        -33.0602129
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 33.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.595724,
-                        -33.0344155
-                    ],
-                    [
-                        -71.5954423,
-                        -33.0342964
-                    ],
-                    [
-                        -71.5954638,
-                        -33.0342671
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 141.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5984283,
-                        -33.0640795
-                    ],
-                    [
-                        -71.5984867,
-                        -33.0642383
-                    ],
-                    [
-                        -71.598709,
-                        -33.0646091
-                    ],
-                    [
-                        -71.5989569,
-                        -33.0649957
-                    ],
-                    [
-                        -71.5990267,
-                        -33.0651284
-                    ],
-                    [
-                        -71.599032,
-                        -33.0651688
-                    ],
-                    [
-                        -71.599032,
-                        -33.0652363
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 54.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5935328,
-                        -33.0510968
-                    ],
-                    [
-                        -71.5936813,
-                        -33.0508519
-                    ],
-                    [
-                        -71.5934694,
-                        -33.0507305
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 97.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5868363,
-                        -33.0527793
-                    ],
-                    [
-                        -71.5865841,
-                        -33.0529148
-                    ],
-                    [
-                        -71.5862237,
-                        -33.0530066
-                    ],
-                    [
-                        -71.5859011,
-                        -33.0531528
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 128.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5884671,
-                        -33.0469085
-                    ],
-                    [
-                        -71.5888104,
-                        -33.0473896
-                    ],
-                    [
-                        -71.588864,
-                        -33.0474886
-                    ],
-                    [
-                        -71.5889499,
-                        -33.0475807
-                    ],
-                    [
-                        -71.5890598,
-                        -33.047619
-                    ],
-                    [
-                        -71.5891483,
-                        -33.0476594
-                    ],
-                    [
-                        -71.5893441,
-                        -33.0477426
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 31.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6305884,
-                        -33.060006
-                    ],
-                    [
-                        -71.6302585,
-                        -33.0600746
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 18.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6303738,
-                        -33.0595182
-                    ],
-                    [
-                        -71.6301914,
-                        -33.0595755
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 30.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.598959,
-                        -33.0363408
-                    ],
-                    [
-                        -71.5986877,
-                        -33.0364959
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 16.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5986353,
-                        -33.0364191
-                    ],
-                    [
-                        -71.5986215,
-                        -33.0365655
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 34.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6268662,
-                        -33.0437995
-                    ],
-                    [
-                        -71.6267617,
-                        -33.0437882
-                    ],
-                    [
-                        -71.6267435,
-                        -33.0439456
-                    ],
-                    [
-                        -71.6267961,
-                        -33.0439938
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 29.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6271683,
-                        -33.0436488
-                    ],
-                    [
-                        -71.6269618,
-                        -33.043705
-                    ],
-                    [
-                        -71.6268679,
-                        -33.0437163
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 12.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6264109,
-                        -33.0413807
-                    ],
-                    [
-                        -71.6263236,
-                        -33.0413003
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 46.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6247761,
-                        -33.0514567
-                    ],
-                    [
-                        -71.6249296,
-                        -33.0518538
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 53.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6423166,
-                        -33.0198841
-                    ],
-                    [
-                        -71.642204,
-                        -33.0198538
-                    ],
-                    [
-                        -71.6420269,
-                        -33.0197098
-                    ],
-                    [
-                        -71.6420001,
-                        -33.019729
-                    ],
-                    [
-                        -71.6419558,
-                        -33.019738
-                    ],
-                    [
-                        -71.6418982,
-                        -33.0197335
-                    ],
-                    [
-                        -71.6418322,
-                        -33.0197087
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 438.8
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6032761,
-                        -33.0610781
-                    ],
-                    [
-                        -71.603522,
-                        -33.0611961
-                    ],
-                    [
-                        -71.6035848,
-                        -33.0612586
-                    ],
-                    [
-                        -71.603617,
-                        -33.061469
-                    ],
-                    [
-                        -71.6036238,
-                        -33.061786
-                    ],
-                    [
-                        -71.6035899,
-                        -33.062032
-                    ],
-                    [
-                        -71.6035278,
-                        -33.0622067
-                    ],
-                    [
-                        -71.6035686,
-                        -33.0624199
-                    ],
-                    [
-                        -71.6036299,
-                        -33.0626072
-                    ],
-                    [
-                        -71.6037105,
-                        -33.0629791
-                    ],
-                    [
-                        -71.6036746,
-                        -33.0631905
-                    ],
-                    [
-                        -71.6037845,
-                        -33.0632578
-                    ],
-                    [
-                        -71.6038561,
-                        -33.0631752
-                    ],
-                    [
-                        -71.6038375,
-                        -33.0627807
-                    ],
-                    [
-                        -71.6038747,
-                        -33.0622617
-                    ],
-                    [
-                        -71.6038623,
-                        -33.0620282
-                    ],
-                    [
-                        -71.6039703,
-                        -33.0618404
-                    ],
-                    [
-                        -71.6040228,
-                        -33.061749
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 367.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6341743,
-                        -33.0560315
-                    ],
-                    [
-                        -71.6341022,
-                        -33.0560968
-                    ],
-                    [
-                        -71.6339292,
-                        -33.0563913
-                    ],
-                    [
-                        -71.6334611,
-                        -33.0565397
-                    ],
-                    [
-                        -71.6334826,
-                        -33.0566206
-                    ],
-                    [
-                        -71.6337186,
-                        -33.056733
-                    ],
-                    [
-                        -71.6340593,
-                        -33.0569601
-                    ],
-                    [
-                        -71.6340485,
-                        -33.0570725
-                    ],
-                    [
-                        -71.6338822,
-                        -33.0570927
-                    ],
-                    [
-                        -71.6337106,
-                        -33.0570725
-                    ],
-                    [
-                        -71.6335711,
-                        -33.0571174
-                    ],
-                    [
-                        -71.6334745,
-                        -33.0574749
-                    ],
-                    [
-                        -71.6330856,
-                        -33.057603
-                    ],
-                    [
-                        -71.6326699,
-                        -33.0571781
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 61.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5964549,
-                        -33.0528078
-                    ],
-                    [
-                        -71.5966709,
-                        -33.0528722
-                    ],
-                    [
-                        -71.5968065,
-                        -33.0529221
-                    ],
-                    [
-                        -71.5970379,
-                        -33.0530496
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 49.5
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5964126,
-                        -33.0528299
-                    ],
-                    [
-                        -71.5961815,
-                        -33.0527946
-                    ],
-                    [
-                        -71.5960955,
-                        -33.0527974
-                    ],
-                    [
-                        -71.5960095,
-                        -33.0528612
-                    ],
-                    [
-                        -71.5959765,
-                        -33.052936
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 45.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5964575,
-                        -33.0529869
-                    ],
-                    [
-                        -71.5966893,
-                        -33.0530519
-                    ],
-                    [
-                        -71.5967657,
-                        -33.0530849
-                    ],
-                    [
-                        -71.5968988,
-                        -33.053151
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 63.5
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5931377,
-                        -33.0594672
-                    ],
-                    [
-                        -71.5928762,
-                        -33.0599954
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 64.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5929559,
-                        -33.0594055
-                    ],
-                    [
-                        -71.5926729,
-                        -33.0599337
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 65.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5927677,
-                        -33.0593416
-                    ],
-                    [
-                        -71.5925114,
-                        -33.0598873
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 23.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5963967,
-                        -33.0548137
-                    ],
-                    [
-                        -71.5964522,
-                        -33.0550161
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 105.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6441658,
-                        -33.0421173
-                    ],
-                    [
-                        -71.6438453,
-                        -33.0417395
-                    ],
-                    [
-                        -71.6436334,
-                        -33.0415979
-                    ],
-                    [
-                        -71.6435704,
-                        -33.0415034
-                    ],
-                    [
-                        -71.643413,
-                        -33.0414355
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 123.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6439566,
-                        -33.0463689
-                    ],
-                    [
-                        -71.6436375,
-                        -33.0460203
-                    ],
-                    [
-                        -71.643129,
-                        -33.0454978
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 58.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6365832,
-                        -33.0457147
-                    ],
-                    [
-                        -71.6366127,
-                        -33.0454426
-                    ],
-                    [
-                        -71.636653,
-                        -33.0454043
-                    ],
-                    [
-                        -71.6368541,
-                        -33.045301
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 26.8
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6367576,
-                        -33.0457844
-                    ],
-                    [
-                        -71.6367717,
-                        -33.0455427
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 31.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6371223,
-                        -33.0459732
-                    ],
-                    [
-                        -71.6371607,
-                        -33.0456952
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 36.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.63764,
-                        -33.045627
-                    ],
-                    [
-                        -71.637412,
-                        -33.0456562
-                    ],
-                    [
-                        -71.6372913,
-                        -33.0457439
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 167.9
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6351783,
-                        -33.0663134
-                    ],
-                    [
-                        -71.6351109,
-                        -33.0662081
-                    ],
-                    [
-                        -71.6349196,
-                        -33.0660269
-                    ],
-                    [
-                        -71.6346297,
-                        -33.0659478
-                    ],
-                    [
-                        -71.6345125,
-                        -33.0659778
-                    ],
-                    [
-                        -71.6343301,
-                        -33.0660542
-                    ],
-                    [
-                        -71.6342161,
-                        -33.0661252
-                    ],
-                    [
-                        -71.6341119,
-                        -33.0662152
-                    ],
-                    [
-                        -71.6341998,
-                        -33.0665837
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 57.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.626252,
-                        -33.0528261
-                    ],
-                    [
-                        -71.6262259,
-                        -33.0528914
-                    ],
-                    [
-                        -71.6261991,
-                        -33.0529411
-                    ],
-                    [
-                        -71.6261396,
-                        -33.0529851
-                    ],
-                    [
-                        -71.6260813,
-                        -33.0530162
-                    ],
-                    [
-                        -71.6259017,
-                        -33.0531024
-                    ],
-                    [
-                        -71.6258191,
-                        -33.0531641
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 14.8
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.634378,
-                        -33.0360661
-                    ],
-                    [
-                        -71.6344357,
-                        -33.0361902
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 115.3
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.598961,
-                        -33.0538418
-                    ],
-                    [
-                        -71.5989309,
-                        -33.0538322
-                    ],
-                    [
-                        -71.5986069,
-                        -33.0537294
-                    ],
-                    [
-                        -71.5983073,
-                        -33.0536794
-                    ],
-                    [
-                        -71.5980433,
-                        -33.0536354
-                    ],
-                    [
-                        -71.5978457,
-                        -33.0538045
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 51.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6219508,
-                        -33.0474083
-                    ],
-                    [
-                        -71.6220014,
-                        -33.0475295
-                    ],
-                    [
-                        -71.622,
-                        -33.0475601
-                    ],
-                    [
-                        -71.6219766,
-                        -33.0475765
-                    ],
-                    [
-                        -71.6219002,
-                        -33.0475992
-                    ],
-                    [
-                        -71.6218289,
-                        -33.047622
-                    ],
-                    [
-                        -71.6217552,
-                        -33.0476527
-                    ],
-                    [
-                        -71.6216916,
-                        -33.047705
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 8.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6203935,
-                        -33.050135
-                    ],
-                    [
-                        -71.6203083,
-                        -33.0501518
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 17.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6196457,
-                        -33.0496428
-                    ],
-                    [
-                        -71.6196363,
-                        -33.0496827
-                    ],
-                    [
-                        -71.6195591,
-                        -33.0497741
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 102.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6349768,
-                        -33.0575691
-                    ],
-                    [
-                        -71.634443,
-                        -33.057864
-                    ],
-                    [
-                        -71.6344053,
-                        -33.0578806
-                    ],
-                    [
-                        -71.634336,
-                        -33.057873
-                    ],
-                    [
-                        -71.634078,
-                        -33.057684
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 70.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -1727,259 +57,352 @@
                         -33.0616858
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 70.8,
+                "_u_id": 2791395631,
+                "_v_id": 8901888854
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 56.6
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6066383,
-                        -33.0566896
+                        -71.5873563,
+                        -33.0445261
                     ],
                     [
-                        -71.6066856,
-                        -33.0567906
+                        -71.5882945,
+                        -33.0448741
                     ],
                     [
-                        -71.6066725,
-                        -33.0568411
-                    ],
-                    [
-                        -71.6067393,
-                        -33.0569803
-                    ],
-                    [
-                        -71.6066921,
-                        -33.057039
-                    ],
-                    [
-                        -71.6066367,
-                        -33.057039
-                    ],
-                    [
-                        -71.606552,
-                        -33.0569981
+                        -71.5889082,
+                        -33.0450985
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "residential",
+                "length": 158.2,
+                "_u_id": 271198797,
+                "_v_id": 271198798
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 15.0
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.598247,
-                        -33.0370697
+                        -71.629766,
+                        -33.0331264
                     ],
                     [
-                        -71.5980977,
-                        -33.0370198
+                        -71.6297605,
+                        -33.0330994
+                    ],
+                    [
+                        -71.6297558,
+                        -33.033077
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 5.6,
+                "_u_id": 9566953934,
+                "_v_id": 9566953935
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 113.0
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.634754,
-                        -33.0542488
+                        -71.6187183,
+                        -33.084935
                     ],
                     [
-                        -71.6345877,
-                        -33.0542128
+                        -71.6185963,
+                        -33.0849167
                     ],
                     [
-                        -71.6344053,
-                        -33.0541769
+                        -71.6181564,
+                        -33.0849324
                     ],
                     [
-                        -71.6342444,
-                        -33.0541724
+                        -71.6176043,
+                        -33.0850068
                     ],
                     [
-                        -71.6340781,
-                        -33.0541499
+                        -71.6167885,
+                        -33.084892
                     ],
                     [
-                        -71.6340244,
-                        -33.0541004
+                        -71.6165515,
+                        -33.0847242
                     ],
                     [
-                        -71.6337975,
-                        -33.0537816
+                        -71.6165192,
+                        -33.0845321
+                    ],
+                    [
+                        -71.6165413,
+                        -33.0841806
+                    ],
+                    [
+                        -71.616748,
+                        -33.0836977
+                    ],
+                    [
+                        -71.6167889,
+                        -33.0834721
+                    ],
+                    [
+                        -71.6167999,
+                        -33.0826686
+                    ],
+                    [
+                        -71.6167869,
+                        -33.0824322
+                    ],
+                    [
+                        -71.6168636,
+                        -33.082303
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 485.2,
+                "_u_id": 9617768341,
+                "_v_id": 9617768340
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 27.0
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.641542,
-                        -33.0515758
+                        -71.6276246,
+                        -33.0526696
                     ],
                     [
-                        -71.6412526,
-                        -33.0515804
+                        -71.6275227,
+                        -33.0527134
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 10.7,
+                "_u_id": 9623957579,
+                "_v_id": 9623957580
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 281.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6421113,
-                        -33.0469714
+                        -71.6361765,
+                        -33.0659069
                     ],
                     [
-                        -71.6424037,
-                        -33.0469354
+                        -71.6361205,
+                        -33.0658611
                     ],
                     [
-                        -71.6425163,
-                        -33.0469602
+                        -71.6360709,
+                        -33.0658105
                     ],
                     [
-                        -71.6426129,
-                        -33.0469646
+                        -71.6360282,
+                        -33.0657555
                     ],
                     [
-                        -71.6427899,
-                        -33.0470253
+                        -71.6359908,
+                        -33.0656924
                     ],
                     [
-                        -71.642924,
-                        -33.0470456
+                        -71.6359626,
+                        -33.0656261
                     ],
                     [
-                        -71.6430715,
-                        -33.0471693
+                        -71.6359359,
+                        -33.0656096
                     ],
                     [
-                        -71.6432325,
-                        -33.0471288
+                        -71.6359047,
+                        -33.0656002
                     ],
                     [
-                        -71.6432174,
-                        -33.0469471
+                        -71.6358783,
+                        -33.0655984
                     ],
                     [
-                        -71.64316,
-                        -33.0467173
+                        -71.6358521,
+                        -33.0656017
                     ],
                     [
-                        -71.6431102,
-                        -33.04643
+                        -71.6358275,
+                        -33.0656099
                     ],
                     [
-                        -71.6431976,
-                        -33.0458764
-                    ],
-                    [
-                        -71.6431979,
-                        -33.0456223
+                        -71.6356345,
+                        -33.0656617
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 70.0,
+                "_u_id": 9693262509,
+                "_v_id": 9693262498
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 119.3
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6129163,
-                        -33.0532479
+                        -71.626252,
+                        -33.0528261
                     ],
                     [
-                        -71.6127139,
-                        -33.0530701
+                        -71.6262259,
+                        -33.0528914
                     ],
                     [
-                        -71.6125969,
-                        -33.0529577
+                        -71.6261991,
+                        -33.0529411
                     ],
                     [
-                        -71.6124969,
-                        -33.052829
+                        -71.6261396,
+                        -33.0529851
                     ],
                     [
-                        -71.6123897,
-                        -33.0526634
+                        -71.6260813,
+                        -33.0530162
                     ],
                     [
-                        -71.6123422,
-                        -33.0525372
+                        -71.6259017,
+                        -33.0531024
                     ],
                     [
-                        -71.6120994,
-                        -33.0525569
+                        -71.6258191,
+                        -33.0531641
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 57.2,
+                "_u_id": 8515590147,
+                "_v_id": 8515672595
             }
         },
         {
             "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6300605,
+                        -33.0466413
+                    ],
+                    [
+                        -71.6303247,
+                        -33.0466482
+                    ],
+                    [
+                        -71.6304217,
+                        -33.0465721
+                    ],
+                    [
+                        -71.6305104,
+                        -33.0464752
+                    ]
+                ]
+            },
             "properties": {
                 "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 46.1
+                "length": 50.6,
+                "_u_id": 3379759105,
+                "_v_id": 3379759110
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6314303,
+                        -33.0516865
+                    ],
+                    [
+                        -71.6316626,
+                        -33.0518094
+                    ],
+                    [
+                        -71.6319034,
+                        -33.0518674
+                    ],
+                    [
+                        -71.6320423,
+                        -33.051927
+                    ]
+                ]
             },
+            "properties": {
+                "highway": "footway",
+                "length": 63.6,
+                "_u_id": 3380530346,
+                "_v_id": 3380530358
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6303442,
+                        -33.0525639
+                    ],
+                    [
+                        -71.6304311,
+                        -33.052772
+                    ],
+                    [
+                        -71.630547,
+                        -33.0527692
+                    ],
+                    [
+                        -71.6307209,
+                        -33.0529649
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 62.4,
+                "_u_id": 3380535040,
+                "_v_id": 5882447983
+            }
+        },
+        {
+            "type": "Feature",
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2044,176 +467,17 @@
                         -33.0528316
                     ]
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "residential",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 158.2
             },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5873563,
-                        -33.0445261
-                    ],
-                    [
-                        -71.5882945,
-                        -33.0448741
-                    ],
-                    [
-                        -71.5889082,
-                        -33.0450985
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 50.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6300605,
-                        -33.0466413
-                    ],
-                    [
-                        -71.6303247,
-                        -33.0466482
-                    ],
-                    [
-                        -71.6304217,
-                        -33.0465721
-                    ],
-                    [
-                        -71.6305104,
-                        -33.0464752
-                    ]
-                ]
+                "footway": "sidewalk",
+                "length": 46.1,
+                "_u_id": 9072622258,
+                "_v_id": 9072622272
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 63.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6314303,
-                        -33.0516865
-                    ],
-                    [
-                        -71.6316626,
-                        -33.0518094
-                    ],
-                    [
-                        -71.6319034,
-                        -33.0518674
-                    ],
-                    [
-                        -71.6320423,
-                        -33.051927
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 62.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6303442,
-                        -33.0525639
-                    ],
-                    [
-                        -71.6304311,
-                        -33.052772
-                    ],
-                    [
-                        -71.630547,
-                        -33.0527692
-                    ],
-                    [
-                        -71.6307209,
-                        -33.0529649
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 33.0
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5960101,
-                        -33.0343228
-                    ],
-                    [
-                        -71.5960021,
-                        -33.0343717
-                    ],
-                    [
-                        -71.5959672,
-                        -33.0344116
-                    ],
-                    [
-                        -71.5958954,
-                        -33.0344307
-                    ],
-                    [
-                        -71.5957735,
-                        -33.0344
-                    ],
-                    [
-                        -71.5957441,
-                        -33.0343868
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 28.3
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2226,133 +490,134 @@
                         -33.0402751
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 28.3,
+                "_u_id": 3383343604,
+                "_v_id": 3383343605
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 7.9
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6296884,
-                        -33.0394544
+                        -71.6219508,
+                        -33.0474083
                     ],
                     [
-                        -71.6296675,
-                        -33.0394864
+                        -71.6220014,
+                        -33.0475295
                     ],
                     [
-                        -71.6296472,
-                        -33.0395163
+                        -71.622,
+                        -33.0475601
+                    ],
+                    [
+                        -71.6219766,
+                        -33.0475765
+                    ],
+                    [
+                        -71.6219002,
+                        -33.0475992
+                    ],
+                    [
+                        -71.6218289,
+                        -33.047622
+                    ],
+                    [
+                        -71.6217552,
+                        -33.0476527
+                    ],
+                    [
+                        -71.6216916,
+                        -33.047705
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 51.2,
+                "_u_id": 4714369012,
+                "_v_id": 2533093704
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 46.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.5959312,
-                        -33.034628
+                        -71.6418565,
+                        -33.0205438
                     ],
                     [
-                        -71.5957883,
-                        -33.0345737
+                        -71.6420376,
+                        -33.0205359
                     ],
                     [
-                        -71.595702,
-                        -33.0345442
-                    ],
-                    [
-                        -71.5956182,
-                        -33.0345115
-                    ],
-                    [
-                        -71.5954719,
-                        -33.0344599
+                        -71.6423011,
+                        -33.0205244
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 41.6,
+                "_u_id": 296296682,
+                "_v_id": 1418851925
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 37.0
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.5976491,
-                        -33.0513879
+                        -71.6569037,
+                        -33.0425714
                     ],
                     [
-                        -71.5976188,
-                        -33.0513915
+                        -71.6566086,
+                        -33.042432
                     ],
                     [
-                        -71.5973191,
-                        -33.0512148
+                        -71.6564477,
+                        -33.042387
+                    ],
+                    [
+                        -71.6557396,
+                        -33.0423825
+                    ],
+                    [
+                        -71.655584,
+                        -33.042333
+                    ],
+                    [
+                        -71.6555342,
+                        -33.0422076
+                    ],
+                    [
+                        -71.655643,
+                        -33.0421262
+                    ],
+                    [
+                        -71.6558399,
+                        -33.0420682
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 176.9,
+                "_u_id": 1805201665,
+                "_v_id": 1805201884
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 5.6
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5957763,
-                        -33.0344639
-                    ],
-                    [
-                        -71.5957534,
-                        -33.03445
-                    ],
-                    [
-                        -71.595722,
-                        -33.0344459
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 40.6
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2381,17 +646,16 @@
                         -33.0366592
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 40.6,
+                "_u_id": 3403254318,
+                "_v_id": 3403254328
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 27.9
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2408,44 +672,252 @@
                         -33.0372291
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 27.9,
+                "_u_id": 3403254322,
+                "_v_id": 3403254330
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "service",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 25.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6329375,
-                        -33.0470168
+                        -71.6509056,
+                        -33.0404611
                     ],
                     [
-                        -71.633092,
-                        -33.0471428
+                        -71.650976,
+                        -33.0403769
                     ],
                     [
-                        -71.633077,
-                        -33.0471923
+                        -71.6512533,
+                        -33.0403998
+                    ],
+                    [
+                        -71.6517328,
+                        -33.04048
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 83.1,
+                "_u_id": 1805201920,
+                "_v_id": 1805201898
             }
         },
         {
             "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6511316,
+                        -33.0400351
+                    ],
+                    [
+                        -71.6517946,
+                        -33.0401405
+                    ]
+                ]
+            },
             "properties": {
                 "highway": "footway",
-                "width": null,
+                "length": 63.0,
+                "_u_id": 1805201844,
+                "_v_id": 1805201950
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5997804,
+                        -33.0508384
+                    ],
+                    [
+                        -71.5997055,
+                        -33.0510249
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 21.8,
+                "_u_id": 3567472309,
+                "_v_id": 3567472310
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6296525,
+                        -33.0395138
+                    ],
+                    [
+                        -71.6296417,
+                        -33.0395291
+                    ],
+                    [
+                        -71.6296318,
+                        -33.0395458
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
                 "footway": "crossing",
                 "crossing": "unmarked",
-                "length": 6.0
+                "length": 4.0,
+                "_u_id": 9108624939,
+                "_v_id": 9108624941
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6001431,
+                        -33.0509365
+                    ],
+                    [
+                        -71.6004401,
+                        -33.0503826
+                    ]
+                ]
             },
+            "properties": {
+                "highway": "footway",
+                "length": 67.4,
+                "_u_id": 3616289113,
+                "_v_id": 3616289114
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5963967,
+                        -33.0548137
+                    ],
+                    [
+                        -71.5964522,
+                        -33.0550161
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 23.0,
+                "_u_id": 4396751544,
+                "_v_id": 4396751545
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6003089,
+                        -33.0503176
+                    ],
+                    [
+                        -71.6000372,
+                        -33.0509082
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 70.2,
+                "_u_id": 3616289117,
+                "_v_id": 2272257188
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6315474,
+                        -33.0555604
+                    ],
+                    [
+                        -71.6316265,
+                        -33.055627
+                    ],
+                    [
+                        -71.6316564,
+                        -33.0556953
+                    ],
+                    [
+                        -71.6316387,
+                        -33.0557958
+                    ],
+                    [
+                        -71.6316997,
+                        -33.0559082
+                    ],
+                    [
+                        -71.6317052,
+                        -33.0561032
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 65.1,
+                "_u_id": 3625626558,
+                "_v_id": 3625626562
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.636476,
+                        -33.0526301
+                    ],
+                    [
+                        -71.6363097,
+                        -33.0525852
+                    ],
+                    [
+                        -71.6360683,
+                        -33.0526077
+                    ],
+                    [
+                        -71.6356786,
+                        -33.0527019
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 76.9,
+                "_u_id": 1805283826,
+                "_v_id": 9442876887
+            }
+        },
+        {
+            "type": "Feature",
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2462,17 +934,18 @@
                         -33.0423765
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 6.0,
+                "_u_id": 9120887603,
+                "_v_id": 9120887605
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 4.5
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2489,17 +962,18 @@
                         -33.0422282
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 4.5,
+                "_u_id": 9120887606,
+                "_v_id": 9120887608
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 2.2
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2516,17 +990,18 @@
                         -33.0426829
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 2.2,
+                "_u_id": 9120944138,
+                "_v_id": 9120944140
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 2.4
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2543,199 +1018,138 @@
                         -33.042496
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 2.4,
+                "_u_id": 9120944141,
+                "_v_id": 9120944143
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 45.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6104881,
-                        -33.0591877
+                        -71.6129163,
+                        -33.0532479
                     ],
                     [
-                        -71.6105248,
-                        -33.0592138
+                        -71.6127139,
+                        -33.0530701
                     ],
                     [
-                        -71.6104697,
-                        -33.0592825
+                        -71.6125969,
+                        -33.0529577
                     ],
                     [
-                        -71.6104372,
-                        -33.0593216
+                        -71.6124969,
+                        -33.052829
                     ],
                     [
-                        -71.6103962,
-                        -33.0593655
+                        -71.6123897,
+                        -33.0526634
                     ],
                     [
-                        -71.6103552,
-                        -33.0593809
+                        -71.6123422,
+                        -33.0525372
                     ],
                     [
-                        -71.6102986,
-                        -33.0594069
-                    ],
-                    [
-                        -71.6102605,
-                        -33.0594342
-                    ],
-                    [
-                        -71.6102263,
-                        -33.0594772
+                        -71.6120994,
+                        -33.0525569
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 119.3,
+                "_u_id": 5871905895,
+                "_v_id": 5160670045
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 53.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.6090946,
-                        -33.0591596
+                        -71.6268662,
+                        -33.0437995
                     ],
                     [
-                        -71.6090283,
-                        -33.0592826
+                        -71.6267617,
+                        -33.0437936
                     ],
                     [
-                        -71.608962,
-                        -33.0593918
+                        -71.6267435,
+                        -33.0439456
                     ],
                     [
-                        -71.6089028,
-                        -33.0595049
-                    ],
-                    [
-                        -71.6088746,
-                        -33.0595501
-                    ],
-                    [
-                        -71.6088346,
-                        -33.0595906
+                        -71.6267961,
+                        -33.0439938
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 34.0,
+                "_u_id": 1489746565,
+                "_v_id": 5390788500
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 24.3
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.5951299,
-                        -33.0340994
+                        -71.6271529,
+                        -33.0436417
                     ],
                     [
-                        -71.5952298,
-                        -33.0338972
+                        -71.6269618,
+                        -33.043683
+                    ],
+                    [
+                        -71.6268702,
+                        -33.0436847
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 27.0,
+                "_u_id": 1489746521,
+                "_v_id": 1489746503
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 21.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.5997804,
-                        -33.0508384
+                        -71.6264109,
+                        -33.0413807
                     ],
                     [
-                        -71.5997055,
-                        -33.0510249
+                        -71.6263236,
+                        -33.0413003
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 12.1,
+                "_u_id": 1489764754,
+                "_v_id": 271958032
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 67.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6001431,
-                        -33.0509365
-                    ],
-                    [
-                        -71.6004401,
-                        -33.0503826
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 70.2
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6003089,
-                        -33.0503176
-                    ],
-                    [
-                        -71.6000372,
-                        -33.0509082
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 57.8
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2756,17 +1170,17 @@
                         -33.0425836
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "sidewalk",
+                "length": 57.8,
+                "_u_id": 9121109069,
+                "_v_id": 9121109072
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 53.7
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2787,17 +1201,17 @@
                         -33.0426189
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "sidewalk",
+                "length": 53.7,
+                "_u_id": 9121109073,
+                "_v_id": 9121109076
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 34.6
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2830,17 +1244,17 @@
                         -33.0425344
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "sidewalk",
+                "length": 34.6,
+                "_u_id": 9121109089,
+                "_v_id": 9121109095
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 37.7
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -2873,249 +1287,17 @@
                         -33.0426561
                     ]
                 ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 65.1
             },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6315474,
-                        -33.0555604
-                    ],
-                    [
-                        -71.6316265,
-                        -33.055627
-                    ],
-                    [
-                        -71.6316564,
-                        -33.0556953
-                    ],
-                    [
-                        -71.6316387,
-                        -33.0557958
-                    ],
-                    [
-                        -71.6316997,
-                        -33.0559082
-                    ],
-                    [
-                        -71.6317052,
-                        -33.0561032
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 14.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.5978523,
-                        -33.0347429
-                    ],
-                    [
-                        -71.5978565,
-                        -33.0348753
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
                 "footway": "sidewalk",
-                "crossing": null,
-                "length": 72.5
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6263205,
-                        -33.0429238
-                    ],
-                    [
-                        -71.6261909,
-                        -33.0428624
-                    ],
-                    [
-                        -71.6260602,
-                        -33.0428282
-                    ],
-                    [
-                        -71.6259079,
-                        -33.0428011
-                    ],
-                    [
-                        -71.6255736,
-                        -33.0427918
-                    ]
-                ]
+                "length": 37.7,
+                "_u_id": 9121109096,
+                "_v_id": 9121109102
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 5.4
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.626638,
-                        -33.0438206
-                    ],
-                    [
-                        -71.6265865,
-                        -33.043842
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 50.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.59811,
-                        -33.0605054
-                    ],
-                    [
-                        -71.5980134,
-                        -33.0604627
-                    ],
-                    [
-                        -71.5978123,
-                        -33.0604604
-                    ],
-                    [
-                        -71.5976889,
-                        -33.0604739
-                    ],
-                    [
-                        -71.5975896,
-                        -33.0605099
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 4.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6254899,
-                        -33.0434857
-                    ],
-                    [
-                        -71.6254742,
-                        -33.0434719
-                    ],
-                    [
-                        -71.6254522,
-                        -33.0434573
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "sidewalk",
-                "crossing": null,
-                "length": 48.1
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6250063,
-                        -33.0432988
-                    ],
-                    [
-                        -71.6255186,
-                        -33.043252
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": "unmarked",
-                "length": 11.7
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -71.6242928,
-                        -33.0433311
-                    ],
-                    [
-                        -71.624235,
-                        -33.043282
-                    ],
-                    [
-                        -71.6242034,
-                        -33.0432573
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": "crossing",
-                "crossing": null,
-                "length": 249.7
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -3192,29 +1374,1949 @@
                         -33.0215365
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "length": 249.7,
+                "_u_id": 3633458439,
+                "_v_id": 3633458450
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "highway": "footway",
-                "width": null,
-                "footway": null,
-                "crossing": null,
-                "length": 35.0
-            },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -71.5948413,
-                        -33.0487088
+                        -71.6233313,
+                        -33.0730392
                     ],
                     [
-                        -71.594649,
-                        -33.0484375
+                        -71.6228571,
+                        -33.0726873
                     ]
                 ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 59.0,
+                "_u_id": 297860713,
+                "_v_id": 2789038849
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6254899,
+                        -33.0434857
+                    ],
+                    [
+                        -71.6254742,
+                        -33.0434719
+                    ],
+                    [
+                        -71.6254522,
+                        -33.0434573
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 4.7,
+                "_u_id": 9123396717,
+                "_v_id": 9123396718
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6525743,
+                        -33.0439325
+                    ],
+                    [
+                        -71.6524728,
+                        -33.0438992
+                    ],
+                    [
+                        -71.6522135,
+                        -33.0438037
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "sidewalk",
+                "length": 36.6,
+                "_u_id": 5799711858,
+                "_v_id": 1805201684
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6250063,
+                        -33.0432988
+                    ],
+                    [
+                        -71.6255186,
+                        -33.043252
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "sidewalk",
+                "length": 48.1,
+                "_u_id": 9123396728,
+                "_v_id": 9123396729
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6242928,
+                        -33.0433311
+                    ],
+                    [
+                        -71.624235,
+                        -33.043282
+                    ],
+                    [
+                        -71.6242034,
+                        -33.0432573
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 11.7,
+                "_u_id": 9123438629,
+                "_v_id": 9123438631
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.634754,
+                        -33.0542488
+                    ],
+                    [
+                        -71.6345877,
+                        -33.0542128
+                    ],
+                    [
+                        -71.6344053,
+                        -33.0541769
+                    ],
+                    [
+                        -71.6342444,
+                        -33.0541724
+                    ],
+                    [
+                        -71.6340781,
+                        -33.0541499
+                    ],
+                    [
+                        -71.6340244,
+                        -33.0541004
+                    ],
+                    [
+                        -71.6337975,
+                        -33.0537816
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 113.0,
+                "_u_id": 1805284064,
+                "_v_id": 1805284131
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5973925,
+                        -33.0363351
+                    ],
+                    [
+                        -71.5976065,
+                        -33.0358809
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 54.2,
+                "_u_id": 3635440045,
+                "_v_id": 3192074611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5971346,
+                        -33.0362378
+                    ],
+                    [
+                        -71.5973268,
+                        -33.0358232
+                    ],
+                    [
+                        -71.5973481,
+                        -33.0357971
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 52.9,
+                "_u_id": 3635440047,
+                "_v_id": 3635440050
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.641542,
+                        -33.0515758
+                    ],
+                    [
+                        -71.6412526,
+                        -33.0515804
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 27.0,
+                "_u_id": 1805283883,
+                "_v_id": 1805284364
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6421113,
+                        -33.0469714
+                    ],
+                    [
+                        -71.6424037,
+                        -33.0469354
+                    ],
+                    [
+                        -71.6425163,
+                        -33.0469602
+                    ],
+                    [
+                        -71.6426129,
+                        -33.0469646
+                    ],
+                    [
+                        -71.6427899,
+                        -33.0470253
+                    ],
+                    [
+                        -71.642924,
+                        -33.0470456
+                    ],
+                    [
+                        -71.6430715,
+                        -33.0471693
+                    ],
+                    [
+                        -71.6432325,
+                        -33.0471288
+                    ],
+                    [
+                        -71.6432174,
+                        -33.0469471
+                    ],
+                    [
+                        -71.64316,
+                        -33.0467173
+                    ],
+                    [
+                        -71.6431102,
+                        -33.04643
+                    ],
+                    [
+                        -71.6431976,
+                        -33.0458764
+                    ],
+                    [
+                        -71.6431979,
+                        -33.0456223
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 281.8,
+                "_u_id": 1805330458,
+                "_v_id": 1805330248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6220815,
+                        -33.0429678
+                    ],
+                    [
+                        -71.6219959,
+                        -33.0430088
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 9.2,
+                "_u_id": 9219923786,
+                "_v_id": 9219923787
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6219507,
+                        -33.0434902
+                    ],
+                    [
+                        -71.6218592,
+                        -33.0435273
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 9.5,
+                "_u_id": 9219950633,
+                "_v_id": 9219950634
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6216341,
+                        -33.0432018
+                    ],
+                    [
+                        -71.621683,
+                        -33.0432645
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 8.3,
+                "_u_id": 9219962638,
+                "_v_id": 9219962639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6529378,
+                        -33.0311087
+                    ],
+                    [
+                        -71.6532275,
+                        -33.0310637
+                    ],
+                    [
+                        -71.6533451,
+                        -33.0311832
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 44.7,
+                "_u_id": 1805134453,
+                "_v_id": 297441184
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5976491,
+                        -33.0513879
+                    ],
+                    [
+                        -71.5976188,
+                        -33.0513915
+                    ],
+                    [
+                        -71.5973191,
+                        -33.0512148
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 37.0,
+                "_u_id": 3616288490,
+                "_v_id": 5308475412
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6032761,
+                        -33.0610781
+                    ],
+                    [
+                        -71.603522,
+                        -33.0611961
+                    ],
+                    [
+                        -71.6035848,
+                        -33.0612586
+                    ],
+                    [
+                        -71.603617,
+                        -33.061469
+                    ],
+                    [
+                        -71.6036238,
+                        -33.061786
+                    ],
+                    [
+                        -71.6035899,
+                        -33.062032
+                    ],
+                    [
+                        -71.6035278,
+                        -33.0622067
+                    ],
+                    [
+                        -71.6035686,
+                        -33.0624199
+                    ],
+                    [
+                        -71.6036299,
+                        -33.0626072
+                    ],
+                    [
+                        -71.6037105,
+                        -33.0629791
+                    ],
+                    [
+                        -71.6036746,
+                        -33.0631905
+                    ],
+                    [
+                        -71.6037845,
+                        -33.0632578
+                    ],
+                    [
+                        -71.6038561,
+                        -33.0631752
+                    ],
+                    [
+                        -71.6038375,
+                        -33.0627807
+                    ],
+                    [
+                        -71.6038747,
+                        -33.0622617
+                    ],
+                    [
+                        -71.6038623,
+                        -33.0620282
+                    ],
+                    [
+                        -71.6039703,
+                        -33.0618404
+                    ],
+                    [
+                        -71.6040228,
+                        -33.061749
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 438.8,
+                "_u_id": 2793617260,
+                "_v_id": 7689493816
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6329375,
+                        -33.0470168
+                    ],
+                    [
+                        -71.633092,
+                        -33.0471428
+                    ],
+                    [
+                        -71.633077,
+                        -33.0471923
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 25.8,
+                "_u_id": 5310766522,
+                "_v_id": 5310766521
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5931377,
+                        -33.0594672
+                    ],
+                    [
+                        -71.5928762,
+                        -33.0599954
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 63.5,
+                "_u_id": 2795283250,
+                "_v_id": 2795283251
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5929559,
+                        -33.0594055
+                    ],
+                    [
+                        -71.5926729,
+                        -33.0599337
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 64.3,
+                "_u_id": 2795283252,
+                "_v_id": 2795283253
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5927677,
+                        -33.0593416
+                    ],
+                    [
+                        -71.5925114,
+                        -33.0598873
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 65.1,
+                "_u_id": 2795283254,
+                "_v_id": 2795283255
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6104881,
+                        -33.0591877
+                    ],
+                    [
+                        -71.6105248,
+                        -33.0592138
+                    ],
+                    [
+                        -71.6104697,
+                        -33.0592825
+                    ],
+                    [
+                        -71.6104372,
+                        -33.0593216
+                    ],
+                    [
+                        -71.6103962,
+                        -33.0593655
+                    ],
+                    [
+                        -71.6103552,
+                        -33.0593809
+                    ],
+                    [
+                        -71.6102986,
+                        -33.0594069
+                    ],
+                    [
+                        -71.6102605,
+                        -33.0594342
+                    ],
+                    [
+                        -71.6102263,
+                        -33.0594772
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 45.8,
+                "_u_id": 5311579349,
+                "_v_id": 5311579357
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6090946,
+                        -33.0591596
+                    ],
+                    [
+                        -71.6090283,
+                        -33.0592826
+                    ],
+                    [
+                        -71.608962,
+                        -33.0593918
+                    ],
+                    [
+                        -71.6089028,
+                        -33.0595049
+                    ],
+                    [
+                        -71.6088746,
+                        -33.0595501
+                    ],
+                    [
+                        -71.6088346,
+                        -33.0595906
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 53.8,
+                "_u_id": 5311635162,
+                "_v_id": 5311635167
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.587759,
+                        -33.0527764
+                    ],
+                    [
+                        -71.5882391,
+                        -33.0528348
+                    ],
+                    [
+                        -71.5882632,
+                        -33.0527988
+                    ],
+                    [
+                        -71.5880165,
+                        -33.0522773
+                    ],
+                    [
+                        -71.5879581,
+                        -33.0518905
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 155.4,
+                "_u_id": 6871791799,
+                "_v_id": 6871791795
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5960101,
+                        -33.0343228
+                    ],
+                    [
+                        -71.5960021,
+                        -33.0343717
+                    ],
+                    [
+                        -71.5959672,
+                        -33.0344116
+                    ],
+                    [
+                        -71.5958954,
+                        -33.0344307
+                    ],
+                    [
+                        -71.5957735,
+                        -33.0344
+                    ],
+                    [
+                        -71.5957441,
+                        -33.0343868
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 33.0,
+                "_u_id": 6867721151,
+                "_v_id": 1839040274
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.595724,
+                        -33.0344155
+                    ],
+                    [
+                        -71.5954423,
+                        -33.0342964
+                    ],
+                    [
+                        -71.5954638,
+                        -33.0342671
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 33.3,
+                "_u_id": 1839040276,
+                "_v_id": 1839040347
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5959312,
+                        -33.034628
+                    ],
+                    [
+                        -71.5957883,
+                        -33.0345737
+                    ],
+                    [
+                        -71.595702,
+                        -33.0345442
+                    ],
+                    [
+                        -71.5956182,
+                        -33.0345115
+                    ],
+                    [
+                        -71.5954719,
+                        -33.0344599
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 46.8,
+                "_u_id": 1839040290,
+                "_v_id": 1839040284
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.626638,
+                        -33.0438206
+                    ],
+                    [
+                        -71.6265865,
+                        -33.043842
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 5.4,
+                "_u_id": 257686816,
+                "_v_id": 257689273
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5957763,
+                        -33.0344639
+                    ],
+                    [
+                        -71.5957534,
+                        -33.03445
+                    ],
+                    [
+                        -71.595722,
+                        -33.0344459
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 5.6,
+                "_u_id": 1839040316,
+                "_v_id": 1839040281
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5935328,
+                        -33.0510968
+                    ],
+                    [
+                        -71.5936813,
+                        -33.0508519
+                    ],
+                    [
+                        -71.5934694,
+                        -33.0507305
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 54.4,
+                "_u_id": 7468646109,
+                "_v_id": 7468646107
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6179622,
+                        -33.0446978
+                    ],
+                    [
+                        -71.6178639,
+                        -33.0447017
+                    ],
+                    [
+                        -71.6178508,
+                        -33.0447022
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 10.4,
+                "_u_id": 9398011813,
+                "_v_id": 9398011814
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5930056,
+                        -33.0591004
+                    ],
+                    [
+                        -71.5928657,
+                        -33.0593676
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 32.4,
+                "_u_id": 3996008877,
+                "_v_id": 3996008878
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5931873,
+                        -33.0591895
+                    ],
+                    [
+                        -71.5930423,
+                        -33.0594348
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 30.4,
+                "_u_id": 3996008879,
+                "_v_id": 3996008880
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5926048,
+                        -33.059913
+                    ],
+                    [
+                        -71.5924638,
+                        -33.0602129
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 35.8,
+                "_u_id": 3996008881,
+                "_v_id": 3996008882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5884671,
+                        -33.0469085
+                    ],
+                    [
+                        -71.5888104,
+                        -33.0473896
+                    ],
+                    [
+                        -71.588864,
+                        -33.0474886
+                    ],
+                    [
+                        -71.5889499,
+                        -33.0475807
+                    ],
+                    [
+                        -71.5890598,
+                        -33.047619
+                    ],
+                    [
+                        -71.5891483,
+                        -33.0476594
+                    ],
+                    [
+                        -71.5893441,
+                        -33.0477426
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 128.3,
+                "_u_id": 7524265363,
+                "_v_id": 5327517599
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5984283,
+                        -33.0640795
+                    ],
+                    [
+                        -71.5984867,
+                        -33.0642383
+                    ],
+                    [
+                        -71.598709,
+                        -33.0646091
+                    ],
+                    [
+                        -71.5989569,
+                        -33.0649957
+                    ],
+                    [
+                        -71.5990267,
+                        -33.0651284
+                    ],
+                    [
+                        -71.599032,
+                        -33.0651688
+                    ],
+                    [
+                        -71.599032,
+                        -33.0652363
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 141.3,
+                "_u_id": 3996089410,
+                "_v_id": 2795087534
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.598961,
+                        -33.0538418
+                    ],
+                    [
+                        -71.5989309,
+                        -33.0538322
+                    ],
+                    [
+                        -71.5986069,
+                        -33.0537294
+                    ],
+                    [
+                        -71.5983073,
+                        -33.0536794
+                    ],
+                    [
+                        -71.5980433,
+                        -33.0536354
+                    ],
+                    [
+                        -71.5978457,
+                        -33.0538045
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 115.3,
+                "_u_id": 2797369349,
+                "_v_id": 3996603185
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5868363,
+                        -33.0527793
+                    ],
+                    [
+                        -71.5865841,
+                        -33.0529148
+                    ],
+                    [
+                        -71.5862237,
+                        -33.0530066
+                    ],
+                    [
+                        -71.5859011,
+                        -33.0531528
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 97.3,
+                "_u_id": 3454841208,
+                "_v_id": 4016703246
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6247761,
+                        -33.0514567
+                    ],
+                    [
+                        -71.6249296,
+                        -33.0518538
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 46.3,
+                "_u_id": 7533967768,
+                "_v_id": 7533967767
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6066383,
+                        -33.0566896
+                    ],
+                    [
+                        -71.6066856,
+                        -33.0567906
+                    ],
+                    [
+                        -71.6066725,
+                        -33.0568411
+                    ],
+                    [
+                        -71.6067393,
+                        -33.0569803
+                    ],
+                    [
+                        -71.6066921,
+                        -33.057039
+                    ],
+                    [
+                        -71.6066367,
+                        -33.057039
+                    ],
+                    [
+                        -71.606552,
+                        -33.0569981
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 56.6,
+                "_u_id": 2804864790,
+                "_v_id": 2804864797
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5951299,
+                        -33.0340994
+                    ],
+                    [
+                        -71.5952298,
+                        -33.0338972
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 24.3,
+                "_u_id": 316729290,
+                "_v_id": 316729291
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.598247,
+                        -33.0370697
+                    ],
+                    [
+                        -71.5980977,
+                        -33.0370198
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 15.0,
+                "_u_id": 2918155938,
+                "_v_id": 2918155941
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.653269,
+                        -33.045645
+                    ],
+                    [
+                        -71.6536525,
+                        -33.0457916
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 39.3,
+                "_u_id": 9442878481,
+                "_v_id": 2454691115
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6547043,
+                        -33.0452986
+                    ],
+                    [
+                        -71.6551079,
+                        -33.0453134
+                    ],
+                    [
+                        -71.6551851,
+                        -33.0453423
+                    ],
+                    [
+                        -71.6556486,
+                        -33.0452928
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 89.3,
+                "_u_id": 9442878493,
+                "_v_id": 9442878496
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6543154,
+                        -33.0397839
+                    ],
+                    [
+                        -71.6549001,
+                        -33.0399947
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "service",
+                "length": 59.4,
+                "_u_id": 1805201711,
+                "_v_id": 1805201648
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.598959,
+                        -33.0363408
+                    ],
+                    [
+                        -71.5986877,
+                        -33.0364959
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 30.6,
+                "_u_id": 2918155907,
+                "_v_id": 2918155908
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5986353,
+                        -33.0364191
+                    ],
+                    [
+                        -71.5986215,
+                        -33.0365655
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 16.3,
+                "_u_id": 2918155910,
+                "_v_id": 4258753730
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6531078,
+                        -33.0406236
+                    ],
+                    [
+                        -71.6532293,
+                        -33.0406843
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 13.2,
+                "_u_id": 9442878527,
+                "_v_id": 1805201731
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.652458,
+                        -33.0408639
+                    ],
+                    [
+                        -71.6526501,
+                        -33.0409906
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 22.8,
+                "_u_id": 9442878533,
+                "_v_id": 9442878531
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6423166,
+                        -33.0198841
+                    ],
+                    [
+                        -71.642204,
+                        -33.0198538
+                    ],
+                    [
+                        -71.6420269,
+                        -33.0197098
+                    ],
+                    [
+                        -71.6420001,
+                        -33.019729
+                    ],
+                    [
+                        -71.6419558,
+                        -33.019738
+                    ],
+                    [
+                        -71.6418982,
+                        -33.0197335
+                    ],
+                    [
+                        -71.6418322,
+                        -33.0197087
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 53.7,
+                "_u_id": 4295509253,
+                "_v_id": 297611138
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6441658,
+                        -33.0421173
+                    ],
+                    [
+                        -71.6438453,
+                        -33.0417395
+                    ],
+                    [
+                        -71.6436334,
+                        -33.0415979
+                    ],
+                    [
+                        -71.6435704,
+                        -33.0415034
+                    ],
+                    [
+                        -71.643413,
+                        -33.0414355
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 105.3,
+                "_u_id": 7855442663,
+                "_v_id": 7855442659
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6439566,
+                        -33.0463689
+                    ],
+                    [
+                        -71.6436375,
+                        -33.0460203
+                    ],
+                    [
+                        -71.643129,
+                        -33.0454978
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 123.7,
+                "_u_id": 7855639227,
+                "_v_id": 1805148594
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5978523,
+                        -33.0347429
+                    ],
+                    [
+                        -71.5978565,
+                        -33.0348753
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 14.7,
+                "_u_id": 385605120,
+                "_v_id": 385605121
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.59811,
+                        -33.0605054
+                    ],
+                    [
+                        -71.5980134,
+                        -33.0604627
+                    ],
+                    [
+                        -71.5978123,
+                        -33.0604604
+                    ],
+                    [
+                        -71.5976889,
+                        -33.0604739
+                    ],
+                    [
+                        -71.5975896,
+                        -33.0605099
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 50.7,
+                "_u_id": 2240736224,
+                "_v_id": 2240736228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6365832,
+                        -33.0457147
+                    ],
+                    [
+                        -71.6366127,
+                        -33.0454426
+                    ],
+                    [
+                        -71.636653,
+                        -33.0454043
+                    ],
+                    [
+                        -71.6368541,
+                        -33.045301
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 58.0,
+                "_u_id": 7855639292,
+                "_v_id": 7855639289
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6177711,
+                        -33.0453676
+                    ],
+                    [
+                        -71.6176925,
+                        -33.0453738
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 7.4,
+                "_u_id": 9484870506,
+                "_v_id": 9484870507
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6179654,
+                        -33.0450112
+                    ],
+                    [
+                        -71.6179616,
+                        -33.0449621
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "unmarked",
+                "length": 5.5,
+                "_u_id": 9512443399,
+                "_v_id": 9512443400
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6367576,
+                        -33.0457844
+                    ],
+                    [
+                        -71.6367717,
+                        -33.0455427
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 26.8,
+                "_u_id": 7855639299,
+                "_v_id": 7855639298
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6371223,
+                        -33.0459732
+                    ],
+                    [
+                        -71.6371607,
+                        -33.0456952
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 31.0,
+                "_u_id": 7855639304,
+                "_v_id": 7855639303
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.63764,
+                        -33.045627
+                    ],
+                    [
+                        -71.637412,
+                        -33.0456562
+                    ],
+                    [
+                        -71.6372913,
+                        -33.0457439
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 36.4,
+                "_u_id": 7855639306,
+                "_v_id": 7855639311
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.634378,
+                        -33.0360661
+                    ],
+                    [
+                        -71.6344357,
+                        -33.0361902
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 14.8,
+                "_u_id": 8726033544,
+                "_v_id": 8726033542
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6112185,
+                        -33.0446894
+                    ],
+                    [
+                        -71.6112775,
+                        -33.0446917
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 5.5,
+                "_u_id": 9566454670,
+                "_v_id": 9566454671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6113264,
+                        -33.044695
+                    ],
+                    [
+                        -71.6113834,
+                        -33.044695
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "footway": "crossing",
+                "crossing": "marked",
+                "length": 5.3,
+                "_u_id": 9566454672,
+                "_v_id": 9566454673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5964549,
+                        -33.0528078
+                    ],
+                    [
+                        -71.5966709,
+                        -33.0528722
+                    ],
+                    [
+                        -71.5968065,
+                        -33.0529221
+                    ],
+                    [
+                        -71.5970379,
+                        -33.0530496
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 61.0,
+                "_u_id": 4381378282,
+                "_v_id": 4381378288
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5964126,
+                        -33.0528299
+                    ],
+                    [
+                        -71.5961815,
+                        -33.0527946
+                    ],
+                    [
+                        -71.5960955,
+                        -33.0527974
+                    ],
+                    [
+                        -71.5960095,
+                        -33.0528612
+                    ],
+                    [
+                        -71.5959765,
+                        -33.052936
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 49.5,
+                "_u_id": 4381378281,
+                "_v_id": 4381378392
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.5964575,
+                        -33.0529869
+                    ],
+                    [
+                        -71.5966893,
+                        -33.0530519
+                    ],
+                    [
+                        -71.5967657,
+                        -33.0530849
+                    ],
+                    [
+                        -71.5968988,
+                        -33.053151
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 45.3,
+                "_u_id": 4381378278,
+                "_v_id": 4381378401
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6203935,
+                        -33.050135
+                    ],
+                    [
+                        -71.6203083,
+                        -33.0501518
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 8.2,
+                "_u_id": 2533093819,
+                "_v_id": 3506156473
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.6196457,
+                        -33.0496428
+                    ],
+                    [
+                        -71.6196363,
+                        -33.0496827
+                    ],
+                    [
+                        -71.6195591,
+                        -33.0497741
+                    ]
+                ]
+            },
+            "properties": {
+                "highway": "footway",
+                "length": 17.0,
+                "_u_id": 2533093834,
+                "_v_id": 8872701091
             }
         }
     ]

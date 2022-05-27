@@ -2,6 +2,7 @@ from jsonschema import Draft7Validator
 from config import DefaultConfigs
 import json
 import os
+from os import path
 import sys
 import ntpath
 
@@ -66,8 +67,15 @@ def validate_json_structure_with_schema(geojson, schema):
     return invalid_ids
 
 def validate_json_structure(geojson):
-    schema_filename = 'OSWValidation/Json Schema/Ways_schema.json'
-    with open(os.path.join(sys.path[0], schema_filename), 'r') as fp:
+    schema_filename = './OSWValidation/Json Schema/Ways_schema.json'
+
+    try:
+        wd = sys._MEIPASS
+    except AttributeError:
+        wd = os.getcwd()
+    file_path = path.join(wd, schema_filename)
+
+    with open(os.path.abspath(file_path), 'r') as fp:
         schema = json.load(fp)
 
     return validate_json_structure_with_schema(geojson, schema)

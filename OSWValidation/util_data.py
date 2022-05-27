@@ -40,9 +40,9 @@ import networkx as nx
 
 
 class UtilData:
-    def __init__(self, nodes_file, ways_file, cf):
+    def __init__(self, ways_file, cf):
 
-        self.nodes_file = nodes_file
+        # self.nodes_file = nodes_file
         self.ways_file = ways_file
 
         self.nodes_list = []
@@ -60,8 +60,8 @@ class UtilData:
         self.invalid_nodes_dict = dict()
         self.invalid_ways_dict = dict()
 
-        with open(nodes_file) as data_json:
-            self.nodes_json = json.load(data_json)
+        # with open(nodes_file) as data_json:
+        #     self.nodes_json = json.load(data_json)
         with open(ways_file) as data_json:
             self.ways_json = json.load(data_json)
 
@@ -70,7 +70,7 @@ class UtilData:
                 os.mkdir(os.path.join(cf.writePath))
 
         # Construct the utility data
-        self.nodes_list = self.get_coords_list(self.nodes_json['features'], cf)
+        # self.nodes_list = self.get_coords_list(self.nodes_json['features'], cf)
         self.ways_list = self.get_coords_list(self.ways_json['features'], cf)
         self.get_coord_dict()
         self.get_one_node_ways()
@@ -96,11 +96,11 @@ class UtilData:
         keys : unique coordinates
         values : all ways to which the coordinate belongs
         """
-        nodes_coord_dict = dict()
-        for id, elem in enumerate(self.nodes_list):
-            if str(elem) not in nodes_coord_dict.keys():
-                # nodes_coord_dict[str(elem)] = 0 if not len(self.nodes_json['features'][id]['properties']) else 1
-                nodes_coord_dict[str(elem)] = id
+        # nodes_coord_dict = dict()
+        # for id, elem in enumerate(self.nodes_list):
+        #     if str(elem) not in nodes_coord_dict.keys():
+        #         # nodes_coord_dict[str(elem)] = 0 if not len(self.nodes_json['features'][id]['properties']) else 1
+        #         nodes_coord_dict[str(elem)] = id
         ways_coord_dict = dict()
         for id, elem in enumerate(self.ways_list):
             for point in elem:
@@ -109,7 +109,7 @@ class UtilData:
                 else:
                     ways_coord_dict[str(point)].append(id)
 
-        self.nodes_coord_dict = nodes_coord_dict
+        # self.nodes_coord_dict = nodes_coord_dict
         self.ways_coord_dict = ways_coord_dict
 
     def get_isolated_ways(self):
