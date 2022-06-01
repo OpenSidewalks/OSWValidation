@@ -118,6 +118,27 @@ def test_sidewalk_missing_vid_uid_fail():
     invalid_ids = json_structure.validate_json_structure(geojson)
     assert len(invalid_ids) != 0
 
+def test_sidewalk_wrong_type_vid_uid_fail():
+    features = [{
+        "type": "Feature",
+        "properties": {
+            "_v_id": 364328711,
+            "_u_id": 4561052271,
+            "highway": "footway",
+            "footway": "sidewalk",
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [ -71.6266856, -33.0416369 ],
+                [ -71.6266685, -33.0416575 ]
+            ]
+        }
+    }]
+    geojson = generate_geojson_from_features(features)
+    invalid_ids = json_structure.validate_json_structure(geojson)
+    assert len(invalid_ids) != 0
+
 """
 Helper functions:
 """

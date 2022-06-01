@@ -1,4 +1,3 @@
-from itertools import chain
 import copy
 import os
 import json
