@@ -32,8 +32,8 @@ Tentative Sequence of operations :
 import os
 import json
 import ntpath
-import numpy as np
-import pandas as pd
+# import numpy as np
+# import pandas as pd
 
 
 class UtilData:
@@ -73,7 +73,7 @@ class UtilData:
         self.get_one_node_ways()
         self.get_isolated_ways()
         self.split_ways_geojson_file(cf)
-        self.get_coord_df()
+        # self.get_coord_df()
 
     def get_coords_list(self, features_list, cf):
         """
@@ -142,7 +142,7 @@ class UtilData:
         disconnected_ways['features'] = [
             self.ways_json['features'][ind] for ind in self.isolated_way_ids]
         connected_way_ids = set(
-            np.arange(len(self.ways_list))) - set(self.isolated_way_ids)
+            range(len(self.ways_list))) - set(self.isolated_way_ids)
         connected_ways['features'] = [self.ways_json['features'][ind]
                                       for ind in connected_way_ids]
 
@@ -165,12 +165,15 @@ class UtilData:
         Return df with two columns origin and dest for starting and ending nodes of the way
         This is needed for connected component of networkx package
         """
+        pass
+        """
         data = {'origin': [], 'dest': []}
         df = pd.DataFrame(data)
         for elem in self.ways_list:
             df = df.append(
                 {'origin': str(elem[0]), 'dest': str(elem[-1])}, ignore_index=True)
         self.ways_df = df
+        """
 
     def get_one_node_ways(self):
         """
