@@ -60,6 +60,7 @@ OSWValidation is a fork from the original OSWValidation project linked (here)[].
 The newest version refactors the OSWValidation functions into an importable library, allowing the validation to be utilized across other OSW projects. A Python script is provided that invokes this library, which can be built into an executable for Linux, Mac, and Windows using PyInstaller.
 
 Features that still need to be added:
+- Sign the executable so it can be run on any Mac without running into permission issues
 - Allow the OSWValidation library to be installed into any project using a command like `pip install`
 - Show an error message when no arguments are provided rather than using default arguments
   - For example, when running python OSWValidation.py without any arguments, we should print an error and not do any validation
