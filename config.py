@@ -12,6 +12,7 @@ class DefaultConfigs:
     def __init__(self, args=None):
         self.inputPath = args.inputPath
         self.writePath = args.writePath
+        self.schemaPath = args.schemaPath
         if not os.path.exists(self.writePath):
             os.mkdir(self.writePath)
 
